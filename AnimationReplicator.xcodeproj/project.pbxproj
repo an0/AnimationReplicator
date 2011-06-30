@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C980ECE213BCDB15004017F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C980ECE113BCDB15004017F9 /* UIKit.framework */; };
+		C980ECE413BCDB15004017F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C980ECE313BCDB15004017F9 /* Foundation.framework */; };
+		C980ECE613BCDB15004017F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C980ECE513BCDB15004017F9 /* CoreGraphics.framework */; };
+		C980ECEC13BCDB15004017F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C980ECEA13BCDB15004017F9 /* InfoPlist.strings */; };
+		C980ECEE13BCDB15004017F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C980ECED13BCDB15004017F9 /* main.m */; };
+		C980ECF213BCDB15004017F9 /* AnimationReplicatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C980ECF113BCDB15004017F9 /* AnimationReplicatorAppDelegate.m */; };
+		C980ECF413BCDB15004017F9 /* AnimationReplicatorViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = C980ECF313BCDB15004017F9 /* AnimationReplicatorViewController.h */; };
+		C980ECF613BCDB15004017F9 /* AnimationReplicatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C980ECF513BCDB15004017F9 /* AnimationReplicatorViewController.m */; };
+		C980ECF913BCDB15004017F9 /* AnimationReplicatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C980ECF713BCDB15004017F9 /* AnimationReplicatorViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C980ECDD13BCDB15004017F9 /* AnimationReplicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationReplicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C980ECE113BCDB15004017F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C980ECE313BCDB15004017F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C980ECE513BCDB15004017F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C980ECE913BCDB15004017F9 /* AnimationReplicator-Info.plist */ = {isa = PBXFileReference; path = "AnimationReplicator-Info.plist"; sourceTree = "<group>"; };
+		C980ECEB13BCDB15004017F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C980ECED13BCDB15004017F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C980ECEF13BCDB15004017F9 /* AnimationReplicator-Prefix.pch */ = {isa = PBXFileReference; path = "AnimationReplicator-Prefix.pch"; sourceTree = "<group>"; };
+		C980ECF013BCDB15004017F9 /* AnimationReplicatorAppDelegate.h */ = {isa = PBXFileReference; path = AnimationReplicatorAppDelegate.h; sourceTree = "<group>"; };
+		C980ECF113BCDB15004017F9 /* AnimationReplicatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationReplicatorAppDelegate.m; sourceTree = "<group>"; };
+		C980ECF313BCDB15004017F9 /* AnimationReplicatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationReplicatorViewController.h; sourceTree = "<group>"; };
+		C980ECF513BCDB15004017F9 /* AnimationReplicatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationReplicatorViewController.m; sourceTree = "<group>"; };
+		C980ECF813BCDB15004017F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AnimationReplicatorViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C980ECDA13BCDB15004017F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C980ECE213BCDB15004017F9 /* UIKit.framework in Frameworks */,
+				C980ECE413BCDB15004017F9 /* Foundation.framework in Frameworks */,
+				C980ECE613BCDB15004017F9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C980ECD213BCDB15004017F9 = {
+			isa = PBXGroup;
+			children = (
+				C980ECE713BCDB15004017F9 /* AnimationReplicator */,
+				C980ECE013BCDB15004017F9 /* Frameworks */,
+				C980ECDE13BCDB15004017F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C980ECDE13BCDB15004017F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C980ECDD13BCDB15004017F9 /* AnimationReplicator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C980ECE013BCDB15004017F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C980ECE113BCDB15004017F9 /* UIKit.framework */,
+				C980ECE313BCDB15004017F9 /* Foundation.framework */,
+				C980ECE513BCDB15004017F9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C980ECE713BCDB15004017F9 /* AnimationReplicator */ = {
+			isa = PBXGroup;
+			children = (
+				C980ECF013BCDB15004017F9 /* AnimationReplicatorAppDelegate.h */,
+				C980ECF113BCDB15004017F9 /* AnimationReplicatorAppDelegate.m */,
+				C980ECF313BCDB15004017F9 /* AnimationReplicatorViewController.h */,
+				C980ECF513BCDB15004017F9 /* AnimationReplicatorViewController.m */,
+				C980ECF713BCDB15004017F9 /* AnimationReplicatorViewController.xib */,
+				C980ECE813BCDB15004017F9 /* Supporting Files */,
+			);
+			path = AnimationReplicator;
+			sourceTree = "<group>";
+		};
+		C980ECE813BCDB15004017F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C980ECE913BCDB15004017F9 /* AnimationReplicator-Info.plist */,
+				C980ECEA13BCDB15004017F9 /* InfoPlist.strings */,
+				C980ECED13BCDB15004017F9 /* main.m */,
+				C980ECEF13BCDB15004017F9 /* AnimationReplicator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C980ECDC13BCDB15004017F9 /* AnimationReplicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C980ECFC13BCDB15004017F9 /* Build configuration list for PBXNativeTarget "AnimationReplicator" */;
+			buildPhases = (
+				C980ECD913BCDB15004017F9 /* Sources */,
+				C980ECDA13BCDB15004017F9 /* Frameworks */,
+				C980ECDB13BCDB15004017F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimationReplicator;
+			productName = AnimationReplicator;
+			productReference = C980ECDD13BCDB15004017F9 /* AnimationReplicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C980ECD413BCDB15004017F9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C980ECD713BCDB15004017F9 /* Build configuration list for PBXProject "AnimationReplicator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C980ECD213BCDB15004017F9;
+			productRefGroup = C980ECDE13BCDB15004017F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C980ECDC13BCDB15004017F9 /* AnimationReplicator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C980ECDB13BCDB15004017F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C980ECEC13BCDB15004017F9 /* InfoPlist.strings in Resources */,
+				C980ECF413BCDB15004017F9 /* AnimationReplicatorViewController.h in Resources */,
+				C980ECF913BCDB15004017F9 /* AnimationReplicatorViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C980ECD913BCDB15004017F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C980ECEE13BCDB15004017F9 /* main.m in Sources */,
+				C980ECF213BCDB15004017F9 /* AnimationReplicatorAppDelegate.m in Sources */,
+				C980ECF613BCDB15004017F9 /* AnimationReplicatorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C980ECEA13BCDB15004017F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C980ECEB13BCDB15004017F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C980ECF713BCDB15004017F9 /* AnimationReplicatorViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C980ECF813BCDB15004017F9 /* en */,
+			);
+			name = AnimationReplicatorViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C980ECFA13BCDB15004017F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C980ECFB13BCDB15004017F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C980ECFD13BCDB15004017F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimationReplicator/AnimationReplicator-Prefix.pch";
+				INFOPLIST_FILE = "AnimationReplicator/AnimationReplicator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C980ECFE13BCDB15004017F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimationReplicator/AnimationReplicator-Prefix.pch";
+				INFOPLIST_FILE = "AnimationReplicator/AnimationReplicator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C980ECD713BCDB15004017F9 /* Build configuration list for PBXProject "AnimationReplicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C980ECFA13BCDB15004017F9 /* Debug */,
+				C980ECFB13BCDB15004017F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C980ECFC13BCDB15004017F9 /* Build configuration list for PBXNativeTarget "AnimationReplicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C980ECFD13BCDB15004017F9 /* Debug */,
+				C980ECFE13BCDB15004017F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C980ECD413BCDB15004017F9 /* Project object */;
+}
