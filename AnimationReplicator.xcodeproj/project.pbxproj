@@ -16,6 +16,11 @@
 		C980ECF413BCDB15004017F9 /* AnimationReplicatorViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = C980ECF313BCDB15004017F9 /* AnimationReplicatorViewController.h */; };
 		C980ECF613BCDB15004017F9 /* AnimationReplicatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C980ECF513BCDB15004017F9 /* AnimationReplicatorViewController.m */; };
 		C980ECF913BCDB15004017F9 /* AnimationReplicatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C980ECF713BCDB15004017F9 /* AnimationReplicatorViewController.xib */; };
+		C980ED0313BCDB6E004017F9 /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = C980ED0013BCDB6E004017F9 /* Canvas.m */; };
+		C980ED0413BCDB6E004017F9 /* droplet.png in Resources */ = {isa = PBXBuildFile; fileRef = C980ED0113BCDB6E004017F9 /* droplet.png */; };
+		C980ED0513BCDB6E004017F9 /* handle.png in Resources */ = {isa = PBXBuildFile; fileRef = C980ED0213BCDB6E004017F9 /* handle.png */; };
+		C980ED0813BCDB88004017F9 /* UtilFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = C980ED0713BCDB88004017F9 /* UtilFunctions.m */; };
+		C980ED0A13BCDBA2004017F9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C980ED0913BCDBA2004017F9 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,15 +28,22 @@
 		C980ECE113BCDB15004017F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C980ECE313BCDB15004017F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C980ECE513BCDB15004017F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C980ECE913BCDB15004017F9 /* AnimationReplicator-Info.plist */ = {isa = PBXFileReference; path = "AnimationReplicator-Info.plist"; sourceTree = "<group>"; };
+		C980ECE913BCDB15004017F9 /* AnimationReplicator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimationReplicator-Info.plist"; sourceTree = "<group>"; };
 		C980ECEB13BCDB15004017F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C980ECED13BCDB15004017F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C980ECEF13BCDB15004017F9 /* AnimationReplicator-Prefix.pch */ = {isa = PBXFileReference; path = "AnimationReplicator-Prefix.pch"; sourceTree = "<group>"; };
-		C980ECF013BCDB15004017F9 /* AnimationReplicatorAppDelegate.h */ = {isa = PBXFileReference; path = AnimationReplicatorAppDelegate.h; sourceTree = "<group>"; };
+		C980ECEF13BCDB15004017F9 /* AnimationReplicator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimationReplicator-Prefix.pch"; sourceTree = "<group>"; };
+		C980ECF013BCDB15004017F9 /* AnimationReplicatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationReplicatorAppDelegate.h; sourceTree = "<group>"; };
 		C980ECF113BCDB15004017F9 /* AnimationReplicatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationReplicatorAppDelegate.m; sourceTree = "<group>"; };
 		C980ECF313BCDB15004017F9 /* AnimationReplicatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationReplicatorViewController.h; sourceTree = "<group>"; };
 		C980ECF513BCDB15004017F9 /* AnimationReplicatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationReplicatorViewController.m; sourceTree = "<group>"; };
 		C980ECF813BCDB15004017F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AnimationReplicatorViewController.xib; sourceTree = "<group>"; };
+		C980ECFF13BCDB6E004017F9 /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		C980ED0013BCDB6E004017F9 /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
+		C980ED0113BCDB6E004017F9 /* droplet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = droplet.png; sourceTree = "<group>"; };
+		C980ED0213BCDB6E004017F9 /* handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handle.png; sourceTree = "<group>"; };
+		C980ED0613BCDB88004017F9 /* UtilFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilFunctions.h; sourceTree = "<group>"; };
+		C980ED0713BCDB88004017F9 /* UtilFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilFunctions.m; sourceTree = "<group>"; };
+		C980ED0913BCDBA2004017F9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C980ED0A13BCDBA2004017F9 /* QuartzCore.framework in Frameworks */,
 				C980ECE213BCDB15004017F9 /* UIKit.framework in Frameworks */,
 				C980ECE413BCDB15004017F9 /* Foundation.framework in Frameworks */,
 				C980ECE613BCDB15004017F9 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +81,7 @@
 		C980ECE013BCDB15004017F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C980ED0913BCDBA2004017F9 /* QuartzCore.framework */,
 				C980ECE113BCDB15004017F9 /* UIKit.framework */,
 				C980ECE313BCDB15004017F9 /* Foundation.framework */,
 				C980ECE513BCDB15004017F9 /* CoreGraphics.framework */,
@@ -78,6 +92,12 @@
 		C980ECE713BCDB15004017F9 /* AnimationReplicator */ = {
 			isa = PBXGroup;
 			children = (
+				C980ED0113BCDB6E004017F9 /* droplet.png */,
+				C980ED0213BCDB6E004017F9 /* handle.png */,
+				C980ECFF13BCDB6E004017F9 /* Canvas.h */,
+				C980ED0013BCDB6E004017F9 /* Canvas.m */,
+				C980ED0613BCDB88004017F9 /* UtilFunctions.h */,
+				C980ED0713BCDB88004017F9 /* UtilFunctions.m */,
 				C980ECF013BCDB15004017F9 /* AnimationReplicatorAppDelegate.h */,
 				C980ECF113BCDB15004017F9 /* AnimationReplicatorAppDelegate.m */,
 				C980ECF313BCDB15004017F9 /* AnimationReplicatorViewController.h */,
@@ -149,6 +169,8 @@
 				C980ECEC13BCDB15004017F9 /* InfoPlist.strings in Resources */,
 				C980ECF413BCDB15004017F9 /* AnimationReplicatorViewController.h in Resources */,
 				C980ECF913BCDB15004017F9 /* AnimationReplicatorViewController.xib in Resources */,
+				C980ED0413BCDB6E004017F9 /* droplet.png in Resources */,
+				C980ED0513BCDB6E004017F9 /* handle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +184,8 @@
 				C980ECEE13BCDB15004017F9 /* main.m in Sources */,
 				C980ECF213BCDB15004017F9 /* AnimationReplicatorAppDelegate.m in Sources */,
 				C980ECF613BCDB15004017F9 /* AnimationReplicatorViewController.m in Sources */,
+				C980ED0313BCDB6E004017F9 /* Canvas.m in Sources */,
+				C980ED0813BCDB88004017F9 /* UtilFunctions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
